@@ -1,0 +1,20 @@
+# Qbot 框架本体不入库，只保留自己改写的面板（见下方强制添加）
+packs/Qbot/
+
+# 环境与缓存
+.conda/
+/qbot/
+packs/Qbot/venv38/
+packs/Qbot/venv39/
+__pycache__/
+*.pyc
+
+# 工具目录
+.reasonix/
+.zcode/
+.vscode/
+
+# 依赖数据（按需可放开）
+*.csv
+*.h5
+*.pkl
